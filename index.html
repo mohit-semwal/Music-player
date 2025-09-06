@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player - Listen your favourate music here </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav>
+        <ul class="nav-list container">
+            <li class="logo"><img src="./assets/images/music-logo.jpg" alt="music_player-logo"></li>
+            <li>SONGS</li>
+            <li class="relative group">
+    <span class="playlist-btn">PLAYLIST <i class="fa-solid fa-caret-down"></i></span>
+    <ul class="playlist-dropdown">
+        <li>Favourites</li>
+        <li>Recently Added</li>
+        <li>Most Played</li>
+        <li>Recently Played</li>
+    </ul>
+</li>
+        </ul>
+    </nav>
+
+    <div class="container container-div">
+        <div class="songs-div">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div class="songs-Container">
+                <div class="song">
+                    <div>
+                        <img src="./assets/cover_Img/cover-img1.jpg" alt="1">
+                        <span class="songName">Ae Dil Hai Mushkil</span>
+                    </div>
+
+                    <span class="songlistplay"><span class="timeStamp">5:00 </span>
+                    <i id="Ae Dil Hai Mushkil" class="fa-regular songPlay  fa-circle-play"></i>
+                        </span>
+                </div>
+                <div class="song">
+                    <div>
+                        <img src="./assets/cover_Img/cover-img2.jpg" alt="2">
+                        <span class="songName">Aye Khuda</span>
+                    </div>
+
+                    <span class="songlistplay"><span class="timeStamp">5:00 </span><i id="Aye Khuda"
+                            class="fa-regular songPlay  fa-circle-play"></i></span>
+                </div>
+                <div class="song">
+                    <div>
+                        <img src="./assets/cover_Img/cover-img3.jpg" alt="1">
+                        <span class="songName">Banjaara</span>
+                    </div>
+
+                    <span class="songlistplay"><span class="timeStamp">5:00</span><i id="Banjaara"
+                            class="fa-regular songPlay  fa-circle-play"></i></span>
+                </div>
+                <div class="song">
+                    <div>
+                        <img src="./assets/cover_Img/cover-img4.jpg" alt="1">
+                        <span class="songName">Bewafa Nikli Hai Tu</span>
+                    </div>
+
+                    <span class="songlistplay"><span class="timeStamp">5:00 </span><i id="Bewafa Nikli Hai Tu"
+                            class="fa-regular songPlay fa-circle-play"></i></span>
+                </div>
+                <div class="song">
+                    <div>
+                        <img src="./assets/cover_Img/cover-img5.jpg" alt="1">
+                        <span class="songName">Haye Mera Dil</span>
+                    </div>
+
+                    <span class="songlistplay"><span class="timeStamp">5:00 </span><i id="Haye Mera Dil"
+                            class="fa-regular songPlay  fa-circle-play"></i></span>
+                </div>
+                <div class="song">
+                    <div>
+                        <img src="./assets/cover_Img/cover-img6.jpg" alt="1">
+                        <span class="songName">Main Dhoondne Ko</span>
+                    </div>
+
+                    <span class="songlistplay"><span class="timeStamp">5:00 </span><i id="Main Dhoondne Ko"
+                            class="fa-regular songPlay  fa-circle-play"></i></span>
+                </div>
+                <div class="song">
+                    <div>
+                        <img src="./assets/cover_Img/cover-img7.jpg" alt="1">
+                        <span class="songName">Tu Hi Haqeeqat</span>
+                    </div>
+
+                    <span class="songlistplay"><span class="timeStamp">5:00 </span><i id="Tu Hi Haqeeqat"
+                            class="fa-regular songPlay  fa-circle-play"></i></span>
+                </div>
+                <div class="song">
+                    <div>
+                        <img src="./assets/cover_Img/cover-img8.jpg" alt="1">
+                        <span class="songName">Yeh Shaam Mastani</span>
+                    </div>
+
+                    <span class="songlistplay"><span class="timeStamp">5:00 </span><i id="Yeh Shaam Mastani"
+                            class="fa-regular songPlay  fa-circle-play"></i></span>
+                </div>
+                <div class="song">
+                    <div>
+                        <img src="./assets/cover_Img/cover-img9.jpg" alt="1">
+                        <span class="songName">Zaroorat</span>
+                    </div>
+
+                    <span class="songlistplay"><span class="timeStamp">5:00 </span><i id="Zaroorat"
+                            class="fa-regular songPlay fa-circle-play"></i></span>
+                </div>
+                <div class="song">
+                    <div>
+                        <img src="./assets/cover_Img/cover-img10.jpg" alt="1">
+                        <span class="songName">Zaroori Tha</span>
+                    </div>
+
+                    <span class="songlistplay"><span class="timeStamp">5:00 </span><i id="Zaroori Tha"
+                            class="fa-regular songPlay fa-circle-play"></i></span>
+                </div>
+            </div>
+
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom song-controler">
+        <input type="range" name="range" id="myProgressBar" value="0" min="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fa-solid fa-3x fa-shuffle" id="shuffleBtn"></i>
+            <div class="sonsplayicons">
+                <i class="fa-solid fa-3x fa-backward-step" id="previousBtn"></i>
+                <i class="fa-regular fa-3x fa-circle-play" id="masterPlay"></i>
+                <!-- <i class="fa-regular fa-3x fa-circle-pause "></i> -->
+                <i class="fa-solid fa-3x fa-forward-step" id="nextBtn"></i>
+            </div>
+            <p>Volume : <span><input type="range" id="myVolume" min="0" max="15" value="5"></span></p>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
