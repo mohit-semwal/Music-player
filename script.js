@@ -14,16 +14,16 @@ let songIndex;
 let isShuffle = false;
 
 let songs = [
-    { songName: "Ae Dil Hai Mushkil", filePath: "./assets/songs/Ae-Dil-Hai-Mushkil.mp3", coverImage: "./assets/cover_Img/cover-img1.jpg" },
-    { songName: "Aye Khuda", filePath: "./assets/songs/Aye-Khuda.mp3", coverImage: "./assets/cover_Img/cover-img2.jpg" },
-    { songName: "Banjaara", filePath: "./assets/songs/Banjaara.mp3", coverImage: "./assets/cover_Img/cover-img3.jpg" },
-    { songName: "Bewafa Nikli Hai Tu", filePath: "./assets/songs/Bewafa-Nikli-Hai-Tu.mp3", coverImage: "./assets/cover_Img/cover-img4.jpg" },
-    { songName: "Haye Mera Dil", filePath: "./assets/songs/Haye-Mera-Dil.mp3", coverImage: "./assets/cover_Img/cover-img5.jpg" },
-    { songName: "Main Dhoondne Ko", filePath: "./assets/songs/Main-Dhoondne-Ko.mp3", coverImage: "./assets/cover_Img/cover-img6.jpg" },
-    { songName: "Tu Hi Haqeeqat", filePath: "./assets/songs/Tu-Hi-Haqeeqat.mp3", coverImage: "./assets/cover_Img/cover-img7.jpg" },
-    { songName: "Yeh Shaam Mastani", filePath: "./assets/songs/Yeh-Shaam-Mastani.mp3", coverImage: "./assets/cover_Img/cover-img8.jpg" },
-    { songName: "Zaroorat", filePath: "./assets/songs/Zaroorat.mp3", coverImage: "./assets/cover_Img/cover-img9.jpg" },
-    { songName: "Zaroori Tha", filePath: "./assets/songs/Zaroori-Tha.mp3", coverImage: "./assets/cover_Img/cover-img10.jpg" }
+    { songName: "Ae Dil Hai Mushkil", filePath: "assets/songs/Ae-Dil-Hai-Mushkil.mp3", coverImage: "assets/cover_Img/cover-img1.jpg" },
+    { songName: "Aye Khuda", filePath: "assets/songs/Aye-Khuda.mp3", coverImage: "assets/cover_Img/cover-img2.jpg" },
+    { songName: "Banjaara", filePath: "assets/songs/Banjaara.mp3", coverImage: "assets/cover_Img/cover-img3.jpg" },
+    { songName: "Bewafa Nikli Hai Tu", filePath: "assets/songs/Bewafa-Nikli-Hai-Tu.mp3", coverImage: "assets/cover_Img/cover-img4.jpg" },
+    { songName: "Haye Mera Dil", filePath: "assets/songs/Haye-Mera-Dil.mp3", coverImage: "assets/cover_Img/cover-img5.jpg" },
+    { songName: "Main Dhoondne Ko", filePath: "assets/songs/Main-Dhoondne-Ko.mp3", coverImage: "assets/cover_Img/cover-img6.jpg" },
+    { songName: "Tu Hi Haqeeqat", filePath: "assets/songs/Tu-Hi-Haqeeqat.mp3", coverImage: "assets/cover_Img/cover-img7.jpg" },
+    { songName: "Yeh Shaam Mastani", filePath: "assets/songs/Yeh-Shaam-Mastani.mp3", coverImage: "assets/cover_Img/cover-img8.jpg" },
+    { songName: "Zaroorat", filePath: "assets/songs/Zaroorat.mp3", coverImage: "assets/cover_Img/cover-img9.jpg" },
+    { songName: "Zaroori Tha", filePath: "assets/songs/Zaroori-Tha.mp3", coverImage: "assets/cover_Img/cover-img10.jpg" }
 ];
 
 
