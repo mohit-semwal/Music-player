@@ -92,9 +92,20 @@ function playSong(index) {
 
 // Master play/pause
 masterPlay.addEventListener("click", () => {
-    if (songIndex === undefined) songIndex = 0;
+    if (songIndex === undefined){
+        songIndex = 0;
+         playMusic.src = songs[songIndex].filePath;
+        playMusic.currentTime = 0;
+        playMusic.play()
+        masterPlay.classList.remove("fa-circle-play");
+    masterPlay.classList.add("fa-circle-pause");
 
-    if (playMusic.paused) {
+    makeAllPlays();
+    songPlay[songIndex].classList.remove("fa-circle-play");
+    songPlay[songIndex].classList.add("fa-circle-pause");
+
+    }
+   else if (playMusic.paused) {
         playMusic.play();
         masterPlay.classList.remove("fa-circle-play");
         masterPlay.classList.add("fa-circle-pause");
